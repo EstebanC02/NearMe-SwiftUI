@@ -13,6 +13,10 @@
 		4248DECD26B37A7E00079D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4248DECC26B37A7E00079D5A /* Assets.xcassets */; };
 		4248DED026B37A7E00079D5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4248DECF26B37A7E00079D5A /* Preview Assets.xcassets */; };
 		4248DED326B37A7E00079D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4248DED126B37A7E00079D5A /* LaunchScreen.storyboard */; };
+		4248DEDC26B37B2B00079D5A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248DEDB26B37B2B00079D5A /* MainView.swift */; };
+		4248DEDF26B37B6A00079D5A /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248DEDE26B37B6A00079D5A /* MKCoordinateRegion.swift */; };
+		4248DEE226B37DD700079D5A /* PlaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248DEE126B37DD700079D5A /* PlaceListViewModel.swift */; };
+		4248DEE526B37E7500079D5A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248DEE426B37E7500079D5A /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4248DECF26B37A7E00079D5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4248DED226B37A7E00079D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4248DED426B37A7E00079D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4248DEDB26B37B2B00079D5A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4248DEDE26B37B6A00079D5A /* MKCoordinateRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKCoordinateRegion.swift; sourceTree = "<group>"; };
+		4248DEE126B37DD700079D5A /* PlaceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListViewModel.swift; sourceTree = "<group>"; };
+		4248DEE426B37E7500079D5A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		4248DEC526B37A7D00079D5A /* NearMeSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4248DEE326B37E6600079D5A /* Managers */,
+				4248DEE026B37DC200079D5A /* ViewModels */,
+				4248DEDD26B37B5400079D5A /* Extensions */,
+				4248DEDA26B37B1E00079D5A /* Views */,
 				4248DEC626B37A7D00079D5A /* AppDelegate.swift */,
 				4248DEC826B37A7D00079D5A /* SceneDelegate.swift */,
 				4248DECA26B37A7D00079D5A /* ContentView.swift */,
@@ -73,6 +85,38 @@
 				4248DECF26B37A7E00079D5A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4248DEDA26B37B1E00079D5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4248DEDB26B37B2B00079D5A /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4248DEDD26B37B5400079D5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4248DEDE26B37B6A00079D5A /* MKCoordinateRegion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4248DEE026B37DC200079D5A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4248DEE126B37DD700079D5A /* PlaceListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4248DEE326B37E6600079D5A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4248DEE426B37E7500079D5A /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +190,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4248DEC726B37A7D00079D5A /* AppDelegate.swift in Sources */,
+				4248DEDC26B37B2B00079D5A /* MainView.swift in Sources */,
+				4248DEE226B37DD700079D5A /* PlaceListViewModel.swift in Sources */,
+				4248DEE526B37E7500079D5A /* LocationManager.swift in Sources */,
+				4248DEDF26B37B6A00079D5A /* MKCoordinateRegion.swift in Sources */,
 				4248DEC926B37A7D00079D5A /* SceneDelegate.swift in Sources */,
 				4248DECB26B37A7D00079D5A /* ContentView.swift in Sources */,
 			);
