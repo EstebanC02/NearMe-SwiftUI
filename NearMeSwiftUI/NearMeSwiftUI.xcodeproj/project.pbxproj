@@ -17,6 +17,7 @@
 		4248DEDF26B37B6A00079D5A /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248DEDE26B37B6A00079D5A /* MKCoordinateRegion.swift */; };
 		4248DEE226B37DD700079D5A /* PlaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248DEE126B37DD700079D5A /* PlaceListViewModel.swift */; };
 		4248DEE526B37E7500079D5A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248DEE426B37E7500079D5A /* LocationManager.swift */; };
+		4248DEE726B3861D00079D5A /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248DEE626B3861D00079D5A /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4248DEDE26B37B6A00079D5A /* MKCoordinateRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKCoordinateRegion.swift; sourceTree = "<group>"; };
 		4248DEE126B37DD700079D5A /* PlaceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListViewModel.swift; sourceTree = "<group>"; };
 		4248DEE426B37E7500079D5A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4248DEE626B3861D00079D5A /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		4248DEC526B37A7D00079D5A /* NearMeSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4248DEE826B3863B00079D5A /* Models */,
 				4248DEE326B37E6600079D5A /* Managers */,
 				4248DEE026B37DC200079D5A /* ViewModels */,
 				4248DEDD26B37B5400079D5A /* Extensions */,
@@ -117,6 +120,14 @@
 				4248DEE426B37E7500079D5A /* LocationManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		4248DEE826B3863B00079D5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4248DEE626B3861D00079D5A /* Landmark.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4248DEE726B3861D00079D5A /* Landmark.swift in Sources */,
 				4248DEC726B37A7D00079D5A /* AppDelegate.swift in Sources */,
 				4248DEDC26B37B2B00079D5A /* MainView.swift in Sources */,
 				4248DEE226B37DD700079D5A /* PlaceListViewModel.swift in Sources */,
